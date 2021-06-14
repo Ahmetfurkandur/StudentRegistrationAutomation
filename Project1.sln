@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{CE9D7C59-D195-4DFB-9C61-FCA26478BFF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{CD2902C5-9B6A-4672-AE4F-D11EF36F79CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ÖğrenciKayıtSistemi", "WindowsFormsApp1\ÖğrenciKayıtSistemi.csproj", "{CD2902C5-9B6A-4672-AE4F-D11EF36F79CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
