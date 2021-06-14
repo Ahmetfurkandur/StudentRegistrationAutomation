@@ -13,10 +13,10 @@ namespace Entities.Concrete
         public long TcIdentityNo { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
-        public string BirthdayDate { get; set; }
+        public DateTime BirthdayDate { get; set; }
         public string ParentName { get; set; }
         public string ParentSurname { get; set; }
-        public long ParentPhoneNumber { get; set; }
+        public long ParentsPhoneNumber { get; set; }
 
     }
 }

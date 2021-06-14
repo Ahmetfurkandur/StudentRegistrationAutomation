@@ -9,7 +9,7 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    interface IStudentDal:IEntityRepository<Student>
+    public interface IStudentDal:IEntityRepository<Student>
     {
 
     }
