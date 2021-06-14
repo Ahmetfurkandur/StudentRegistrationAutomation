@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Business.Abstract;
+using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +18,12 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            _studentService = new StudentManager(new EfStudentDal());
+        }
+        private IStudentService _studentService;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dgwStudents.DataSource = _studentService.GetAll();
         }
     }
 }
