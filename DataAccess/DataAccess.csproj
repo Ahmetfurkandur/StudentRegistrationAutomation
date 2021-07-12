@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IEntityRepository.cs" />
+    <Compile Include="Abstract\ILoginDal.cs" />
     <Compile Include="Abstract\IStudentDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfLoginDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfRepositoryBase.cs" />
     <Compile Include="Concrete\EntityFramework\EfStudentDal.cs" />
     <Compile Include="Concrete\EntityFramework\SchoolDBContext.cs" />

@@ -15,6 +15,7 @@ namespace DataAccess.Abstract
         void Delete(T entity);
         void Add(T entity);
         void Update(T entity);
+        bool Login(string username, string password);
 
     }
 }
