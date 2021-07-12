@@ -61,5 +61,37 @@ namespace DataAccess.Concrete.EntityFramework
                 context.SaveChanges();
             }
         }
+
+        public bool Login(string username, string password)
+        {
+
+            using (TContext context = new TContext())
+            {
+                
+                //try
+                //{
+                    var user = (from p in context.Persons
+                            join u in context.Users
+                            on p.Id equals u.PersonId
+                            where p.IsActive == false &&
+                                u.UserName == username &&
+                                u.Password == password &&
+                                u.IsActive == true
+                            select p).FirstOrDefault();
+                    if (user != null)
+                    {
+                        return true;
+                    }
+                //}
+                //catch
+                //{
+
+                    
+                //}
+                
+                return false;
+            }
+                
+        }
     }
 }

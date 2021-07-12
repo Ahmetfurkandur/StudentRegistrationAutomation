@@ -15,5 +15,8 @@ namespace DataAccess.Concrete.EntityFramework
 
         }
         public DbSet<Student> Students{ get; set; }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<User> Users { get; set; }
+
     }
 }

@@ -22,3 +22,6 @@ C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\obj\Debug\ÖğrenciKayıt
 C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\obj\Debug\ÖğrenciKayıtSistemi.csproj.CopyComplete
 C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginForm.resources
+C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\bin\Debug\Ninject.dll
+C:\Users\lenovo\source\repos\Project1\WindowsFormsApp1\bin\Debug\Ninject.xml
